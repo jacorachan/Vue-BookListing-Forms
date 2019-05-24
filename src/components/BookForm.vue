@@ -5,7 +5,7 @@
     <div>
       <label for="finishedReading">
         Finished Reading
-        <input type="radio" v-model="bookData.finishedReading" />
+        <input type="checkox" v-model="bookData.finishedReading" />
       </label>
     </div>
     <div>
@@ -15,7 +15,7 @@
       </label>
       <label for="ownership">
         Ownership
-        <input type="radio" v-model="bookData.ownership" value="bought" />
+        <input type="radio" v-model="bookData.ownership" value="ownership" />
       </label>
     </div>
     <button type="submit" name="button">Add Book</button>
